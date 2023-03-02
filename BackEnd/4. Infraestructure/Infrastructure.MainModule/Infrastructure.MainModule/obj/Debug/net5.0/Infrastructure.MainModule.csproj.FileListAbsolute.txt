@@ -1,4 +1,6 @@
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\bin\Debug\net5.0\Infrastructure.MainModule.deps.json
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\bin\Debug\net5.0\Infrastructure.MainModule.runtimeconfig.json
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\bin\Debug\net5.0\Infrastructure.MainModule.runtimeconfig.dev.json
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\bin\Debug\net5.0\Infrastructure.MainModule.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\bin\Debug\net5.0\ref\Infrastructure.MainModule.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\bin\Debug\net5.0\Infrastructure.MainModule.pdb
@@ -19,3 +21,4 @@ F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.M
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\obj\Debug\net5.0\Infrastructure.MainModule.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\obj\Debug\net5.0\ref\Infrastructure.MainModule.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\obj\Debug\net5.0\Infrastructure.MainModule.pdb
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\obj\Debug\net5.0\Infrastructure.MainModule.genruntimeconfig.cache

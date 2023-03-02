@@ -1,4 +1,6 @@
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Data.deps.json
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Data.runtimeconfig.json
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Data.runtimeconfig.dev.json
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Data.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\ref\Infrastructure.Data.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Data.pdb
@@ -13,3 +15,4 @@ F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.D
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\ref\Infrastructure.Data.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.pdb
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.genruntimeconfig.cache
