@@ -1,0 +1,11 @@
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\bin\Debug\net5.0\Domain.MainModule.deps.json
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\bin\Debug\net5.0\Domain.MainModule.dll
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\bin\Debug\net5.0\ref\Domain.MainModule.dll
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\bin\Debug\net5.0\Domain.MainModule.pdb
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\obj\Debug\net5.0\Domain.MainModule.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\obj\Debug\net5.0\Domain.MainModule.AssemblyInfoInputs.cache
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\obj\Debug\net5.0\Domain.MainModule.AssemblyInfo.cs
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\obj\Debug\net5.0\Domain.MainModule.csproj.CoreCompileInputs.cache
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\obj\Debug\net5.0\Domain.MainModule.dll
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\obj\Debug\net5.0\ref\Domain.MainModule.dll
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\obj\Debug\net5.0\Domain.MainModule.pdb

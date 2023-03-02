@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\3. Domain\Domain.MainModule\Domain.MainModule\Domain.MainModule.csproj" />
+    <ProjectReference Include="..\..\..\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\Infrastructure.MainModule.csproj" />
+    <ProjectReference Include="..\..\Application.Dto\Application.Dto\Application.Dto.csproj" />
+    <ProjectReference Include="..\..\Application.Manager\Application.Manager\Application.Manager.csproj" />
+    <ProjectReference Include="..\..\Application.Services\Application.Services\Application.Services.csproj" />
+  </ItemGroup>
+
+</Project>

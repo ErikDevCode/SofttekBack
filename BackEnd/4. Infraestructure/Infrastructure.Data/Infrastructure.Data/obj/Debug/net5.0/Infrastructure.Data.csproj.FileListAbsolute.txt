@@ -1,0 +1,15 @@
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Data.deps.json
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Data.dll
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\ref\Infrastructure.Data.dll
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Data.pdb
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\Domain.MainModule.dll
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\bin\Debug\net5.0\Domain.MainModule.pdb
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.AssemblyReference.cache
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfoInputs.cache
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfo.cs
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.CoreCompileInputs.cache
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.CopyComplete
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.dll
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\ref\Infrastructure.Data.dll
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\4. Infraestructure\Infrastructure.Data\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.pdb

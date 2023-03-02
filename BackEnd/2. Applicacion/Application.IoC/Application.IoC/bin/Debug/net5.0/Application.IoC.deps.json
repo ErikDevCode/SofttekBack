@@ -1,0 +1,110 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Application.IoC/1.0.0": {
+        "dependencies": {
+          "Application.Manager": "1.0.0",
+          "Application.Services": "1.0.0",
+          "Infrastructure.MainModule": "1.0.0"
+        },
+        "runtime": {
+          "Application.IoC.dll": {}
+        }
+      },
+      "Application.Dto/1.0.0": {
+        "dependencies": {
+          "Domain.MainModule": "1.0.0"
+        },
+        "runtime": {
+          "Application.Dto.dll": {}
+        }
+      },
+      "Application.Manager/1.0.0": {
+        "dependencies": {
+          "Application.Dto": "1.0.0",
+          "Application.Services": "1.0.0",
+          "Domain.MainModule": "1.0.0",
+          "Infrastructure.MainModule": "1.0.0"
+        },
+        "runtime": {
+          "Application.Manager.dll": {}
+        }
+      },
+      "Application.Services/1.0.0": {
+        "dependencies": {
+          "Application.Dto": "1.0.0",
+          "Domain.MainModule": "1.0.0",
+          "Infrastructure.Data": "1.0.0"
+        },
+        "runtime": {
+          "Application.Services.dll": {}
+        }
+      },
+      "Domain.MainModule/1.0.0": {
+        "runtime": {
+          "Domain.MainModule.dll": {}
+        }
+      },
+      "Infrastructure.Data/1.0.0": {
+        "dependencies": {
+          "Domain.MainModule": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.Data.dll": {}
+        }
+      },
+      "Infrastructure.MainModule/1.0.0": {
+        "dependencies": {
+          "Application.Dto": "1.0.0",
+          "Application.Services": "1.0.0",
+          "Domain.MainModule": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.MainModule.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Application.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Application.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Application.Manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Application.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.MainModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.MainModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

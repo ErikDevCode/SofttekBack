@@ -1,0 +1,397 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Manager\\Application.Manager\\Application.Manager.csproj": {}
+  },
+  "projects": {
+    "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Dto\\Application.Dto\\Application.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Dto\\Application.Dto\\Application.Dto.csproj",
+        "projectName": "Application.Dto",
+        "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Dto\\Application.Dto\\Application.Dto.csproj",
+        "packagesPath": "C:\\Users\\EABANTO\\.nuget\\packages\\",
+        "outputPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Dto\\Application.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EABANTO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Manager\\Application.Manager\\Application.Manager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Manager\\Application.Manager\\Application.Manager.csproj",
+        "projectName": "Application.Manager",
+        "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Manager\\Application.Manager\\Application.Manager.csproj",
+        "packagesPath": "C:\\Users\\EABANTO\\.nuget\\packages\\",
+        "outputPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Manager\\Application.Manager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EABANTO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Dto\\Application.Dto\\Application.Dto.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Dto\\Application.Dto\\Application.Dto.csproj"
+              },
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Services\\Application.Services\\Application.Services.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Services\\Application.Services\\Application.Services.csproj"
+              },
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj"
+              },
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.MainModule\\Infrastructure.MainModule\\Infrastructure.MainModule.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.MainModule\\Infrastructure.MainModule\\Infrastructure.MainModule.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Services\\Application.Services\\Application.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Services\\Application.Services\\Application.Services.csproj",
+        "projectName": "Application.Services",
+        "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Services\\Application.Services\\Application.Services.csproj",
+        "packagesPath": "C:\\Users\\EABANTO\\.nuget\\packages\\",
+        "outputPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Services\\Application.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EABANTO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Dto\\Application.Dto\\Application.Dto.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Dto\\Application.Dto\\Application.Dto.csproj"
+              },
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj"
+              },
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.Data\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.Data\\Infrastructure.Data\\Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj",
+        "projectName": "Domain.MainModule",
+        "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj",
+        "packagesPath": "C:\\Users\\EABANTO\\.nuget\\packages\\",
+        "outputPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EABANTO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.Data\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.Data\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "projectName": "Infrastructure.Data",
+        "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.Data\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\EABANTO\\.nuget\\packages\\",
+        "outputPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.Data\\Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EABANTO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.MainModule\\Infrastructure.MainModule\\Infrastructure.MainModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.MainModule\\Infrastructure.MainModule\\Infrastructure.MainModule.csproj",
+        "projectName": "Infrastructure.MainModule",
+        "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.MainModule\\Infrastructure.MainModule\\Infrastructure.MainModule.csproj",
+        "packagesPath": "C:\\Users\\EABANTO\\.nuget\\packages\\",
+        "outputPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\4. Infraestructure\\Infrastructure.MainModule\\Infrastructure.MainModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EABANTO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Dto\\Application.Dto\\Application.Dto.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Dto\\Application.Dto\\Application.Dto.csproj"
+              },
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Services\\Application.Services\\Application.Services.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\2. Applicacion\\Application.Services\\Application.Services\\Application.Services.csproj"
+              },
+              "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj": {
+                "projectPath": "F:\\PROYECTOS\\SofttekBack\\SofttekBack\\BackEnd\\3. Domain\\Domain.MainModule\\Domain.MainModule\\Domain.MainModule.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

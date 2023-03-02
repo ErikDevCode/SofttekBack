@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Application.Services/1.0.0": {
+        "dependencies": {
+          "Application.Dto": "1.0.0",
+          "Domain.MainModule": "1.0.0",
+          "Infrastructure.Data": "1.0.0"
+        },
+        "runtime": {
+          "Application.Services.dll": {}
+        }
+      },
+      "Application.Dto/1.0.0": {
+        "dependencies": {
+          "Domain.MainModule": "1.0.0"
+        },
+        "runtime": {
+          "Application.Dto.dll": {}
+        }
+      },
+      "Domain.MainModule/1.0.0": {
+        "runtime": {
+          "Domain.MainModule.dll": {}
+        }
+      },
+      "Infrastructure.Data/1.0.0": {
+        "dependencies": {
+          "Domain.MainModule": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Application.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Application.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.MainModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
