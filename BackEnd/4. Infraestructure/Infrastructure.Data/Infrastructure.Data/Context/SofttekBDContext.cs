@@ -1,4 +1,5 @@
 ﻿using System;
+using Domain.MainModule.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -17,24 +18,17 @@ namespace Infrastructure.Data.Context
         {
         }
 
-        public virtual DbSet<Producto> Productos { get; set; }
-        public virtual DbSet<Usuario> Usuarios { get; set; }
-        public virtual DbSet<VentasDiaria> VentasDiarias { get; set; }
+        public virtual DbSet<ProductoEntity> Productos { get; set; }
+        public virtual DbSet<UsuarioEntity> Usuarios { get; set; }
+        public virtual DbSet<VentaDiariaEntity> VentasDiarias { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=EABANTO;Database=SofttekBD;Trusted_Connection=True; Encrypt=False");
-            }
-        }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasAnnotation("Relational:Collation", "Modern_Spanish_CI_AS");
 
-            modelBuilder.Entity<Producto>(entity =>
+            modelBuilder.Entity<ProductoEntity>(entity =>
             {
                 entity.HasKey(e => e.IdProducto)
                     .HasName("PK__Producto__09889210C4170B13");
@@ -46,9 +40,11 @@ namespace Infrastructure.Data.Context
                     .IsUnicode(false);
 
                 entity.Property(e => e.FechaRegistro).HasColumnType("datetime");
+
+                entity.Property(e => e.Precio).HasColumnType("decimal(6, 2)");
             });
 
-            modelBuilder.Entity<Usuario>(entity =>
+            modelBuilder.Entity<UsuarioEntity>(entity =>
             {
                 entity.HasKey(e => e.IdUsuario)
                     .HasName("PK__Usuario__5B65BF978753C357");
@@ -82,7 +78,7 @@ namespace Infrastructure.Data.Context
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<VentasDiaria>(entity =>
+            modelBuilder.Entity<VentaDiariaEntity>(entity =>
             {
                 entity.HasKey(e => e.IdVenta)
                     .HasName("PK__VentasDi__BC1240BD0E0D6EB5");
@@ -91,15 +87,15 @@ namespace Infrastructure.Data.Context
 
                 entity.Property(e => e.FechaVenta).HasColumnType("datetime");
 
-                entity.HasOne(d => d.IdProductoNavigation)
-                    .WithMany(p => p.VentasDiaria)
-                    .HasForeignKey(d => d.IdProducto)
-                    .HasConstraintName("FK__VentasDia__IdPro__2E1BDC42");
+                //entity.HasOne(d => d.IdProductoNavigation)
+                //    .WithMany(p => p.VentasDiaria)
+                //    .HasForeignKey(d => d.IdProducto)
+                //    .HasConstraintName("FK__VentasDia__IdPro__2E1BDC42");
 
-                entity.HasOne(d => d.IdUsuarioVentaNavigation)
-                    .WithMany(p => p.VentasDiaria)
-                    .HasForeignKey(d => d.IdUsuarioVenta)
-                    .HasConstraintName("FK__VentasDia__IdUsu__2F10007B");
+                //entity.HasOne(d => d.IdUsuarioVentaNavigation)
+                //    .WithMany(p => p.VentasDiaria)
+                //    .HasForeignKey(d => d.IdUsuarioVenta)
+                //    .HasConstraintName("FK__VentasDia__IdUsu__2F10007B");
             });
 
             OnModelCreatingPartial(modelBuilder);

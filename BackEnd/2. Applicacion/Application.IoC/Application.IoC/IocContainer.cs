@@ -32,18 +32,18 @@ namespace Application.IoC
         {
             service.AddTransient<ISecurityService, SecurityService>();
             service.AddTransient<IPasswordService, PasswordService>();
-          //  service.AddTransient<ISedesService, SedesService>();
+            service.AddTransient<IVentasService, VentasService>();
 
         }
         public static void AddDependencyInjectionsAppManager(this IServiceCollection service)
         {
             service.AddTransient<ISecurityManager, SecurityManager>();
-         //   service.AddTransient<ISedesManager, SedesManager>();
+            service.AddTransient<IVentasManager, VentasManager>();
         }
         public static void AddIDependencynjectionsRepository(this IServiceCollection service)
         {
             service.AddScoped<ISecurityService, SecurityRepository>();
-         //   service.AddScoped<ISedesService, SedesRepository>();
+            service.AddScoped<IVentasService, VentasRepository>();
 
         }
     }

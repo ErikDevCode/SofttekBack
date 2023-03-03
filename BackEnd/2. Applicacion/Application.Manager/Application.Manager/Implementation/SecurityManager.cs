@@ -41,19 +41,13 @@ namespace Application.Manager.Implementation
         {
             LoginResponseDTO response = null;
             //Header 
-            var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Authentication:SecretKey"]));
-            var signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
-            var header = new JwtHeader(signingCredentials);
+
             var razonSocial = string.Empty;
             var nomCli = string.Empty;
             var apePaterno = string.Empty;
             var apeMaterno = string.Empty;
 
-            if (userMap == null) { return null; }
-            if (userMap.Nombres == null || userMap.ApellidoPaterno == null || userMap.ApellidoMaterno == null) { nomCli = "ninguno"; apePaterno = "ninguno"; apeMaterno = "ninguno"; }
-            else { nomCli = userMap.Nombres; apePaterno = userMap.ApellidoPaterno; apeMaterno = userMap.ApellidoMaterno; }
-
-            //add Claims
+            ////add Claims
             var claims = new[]
             {
                 new Claim("idUsuario", userMap.IdUsuario.ToString()),
@@ -62,24 +56,17 @@ namespace Application.Manager.Implementation
                 new Claim("apellidoMaterno", apeMaterno)
             };
 
-            //Payload
-            var payload = new JwtPayload
-            (
-               configuration["Authentication:Issuer"],
-               configuration["Authentication:Audience"],
-               claims,
-               DateTime.Now,
-               expires: DateTime.Now.AddMinutes(5),
-               DateTime.UtcNow.AddMinutes(5)
-            );
+            var sata = configuration["Authentication:SecretKey"];
 
-            var token = new JwtSecurityToken(header, payload);
-            string tkResponse = new JwtSecurityTokenHandler().WriteToken(token);
+            var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Authentication:SecretKey"]));
+            var signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
+            var expiration = DateTime.UtcNow.AddMinutes(40);
+            var arqtoken = new JwtSecurityToken(issuer: null, audience: null, claims: claims, expires: expiration, signingCredentials: signingCredentials);
 
             response = new LoginResponseDTO
             {
                 Codigo = userMap.IdUsuario,
-                Token = tkResponse
+                Token = new JwtSecurityTokenHandler().WriteToken(arqtoken)
             };
 
             return response;
@@ -92,11 +79,5 @@ namespace Application.Manager.Implementation
             return response;
         }
 
-        public async Task<(bool, UsuarioEntity)> IsValidateUser(UserLoginDTO userLogin)
-        {
-            UsuarioEntity user = await securityService.GetLoginCredentials(userLogin);
-            var isValid = passwordService.Check(user.Contrasena, userLogin.Password);
-            return (isValid, user);
-        }
     }
 }

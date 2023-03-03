@@ -35,6 +35,8 @@ namespace Infrastructure.MainModule.Repositories
 
         public ISecurityService SecurityRepository => _securityService ?? new SecurityRepository(context, configuration);
 
+        public IVentasService VentasRepository => new VentasRepository(context,configuration);
+
         public void Dispose()
         {
             if (context != null)

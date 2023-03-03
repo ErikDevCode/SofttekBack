@@ -10,7 +10,7 @@ namespace Application.Manager.Interfaces
 {
    public interface ISecurityManager
     {
-        Task<(bool, UsuarioEntity)> IsValidateUser(UserLoginDTO userLogin);
+        
         Task<LoginResponseDTO> GetLoginCredentials(UserLoginDTO userLogin);
     }
 }

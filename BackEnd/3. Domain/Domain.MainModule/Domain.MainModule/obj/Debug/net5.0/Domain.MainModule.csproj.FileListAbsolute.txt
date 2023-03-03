@@ -9,3 +9,4 @@ F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\obj\Debug\net5.0\Domain.MainModule.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\obj\Debug\net5.0\ref\Domain.MainModule.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\obj\Debug\net5.0\Domain.MainModule.pdb
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\3. Domain\Domain.MainModule\Domain.MainModule\obj\Debug\net5.0\Domain.MainModule.csproj.AssemblyReference.cache

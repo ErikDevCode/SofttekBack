@@ -31,4 +31,6 @@
     <ProjectReference Include="..\4. Infraestructure\Infrastructure.MainModule\Infrastructure.MainModule\Infrastructure.MainModule.csproj" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
 </Project>

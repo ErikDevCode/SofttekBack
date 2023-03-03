@@ -9,5 +9,6 @@ namespace Application.Services.Interfaces
     public interface IUnitOfWork : IDisposable
     {
         ISecurityService SecurityRepository { get; }
+        IVentasService VentasRepository { get; }
     }
 }

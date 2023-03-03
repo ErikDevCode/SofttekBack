@@ -19,5 +19,7 @@ namespace Domain.MainModule.Entities
         public string Contrasena { get; set; }
         public int Activo { get; set; }
 
+        public DateTime FechaRegistro { get; set; }
+
     }
 }

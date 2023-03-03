@@ -25,7 +25,7 @@ namespace Application.Core.Mapping
                .ReverseMap()
                ;
 
-            CreateMap<ProductoDTO, Producto>()
+            CreateMap<ProductoDTO, ProductoEntity>()
                .ForMember(t => t.IdProducto, opt => opt.MapFrom(o => o.IdProducto))
                .ForMember(t => t.DescProducto, opt => opt.MapFrom(o => o.DescProducto))
                .ForMember(t => t.Stock, opt => opt.MapFrom(o => o.Stock))
@@ -34,12 +34,16 @@ namespace Application.Core.Mapping
                .ReverseMap()
                ;
 
-            CreateMap<VentasDiariasDTO, VentasDiarias>()
+            CreateMap<ListarVentasDiariasDTO, VentasDiariasEntity>()
                .ForMember(t => t.IdVenta, opt => opt.MapFrom(o => o.IdVenta))
                .ForMember(t => t.IdProducto, opt => opt.MapFrom(o => o.IdProducto))
+               .ForMember(t => t.DescripcionProducto, opt => opt.MapFrom(o => o.DescripcionProducto))
+               .ForMember(t => t.Cantidad, opt => opt.MapFrom(o => o.Cantidad))
+               .ForMember(t => t.MontoTotal, opt => opt.MapFrom(o => o.MontoTotal))
                .ForMember(t => t.FechaVenta, opt => opt.MapFrom(o => o.FechaVenta))
                .ForMember(t => t.IdUsuarioVenta, opt => opt.MapFrom(o => o.IdUsuarioVenta))
-               .ForMember(t => t.FechaRegistro, opt => opt.MapFrom(o => o.FechaRegistro))
+               .ForMember(t => t.NombreUsuario, opt => opt.MapFrom(o => o.NombreUsuario))
+
                .ReverseMap()
                ;
 

@@ -1,3 +1,4 @@
+F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\appsettings.Development.json
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\appsettings.json
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\Presentation.BackEnd.exe
@@ -98,7 +99,6 @@ F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\pt-BR\Micr
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 F:\PROYECTOS\SofttekBack\SofttekBack\BackEnd\BackEnd\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll

@@ -12,6 +12,8 @@ namespace Application.Services.Util
 
         public const string InvalidUser = "Usuario / clave no válidos";
 
+        public const string InvalidRegister = "No se pudo registrar la venta";
 
+        public const string ResponseRegisterVenta = "Se registro la venta correctamente";
     }
 }

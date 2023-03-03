@@ -10,6 +10,7 @@ namespace Application.Dto
     {
         public int IdVenta { get; set; }
         public int IdProducto { get; set; }
+        public int Cantidad { get; set; }
         public DateTime FechaVenta { get; set; }
         public int IdUsuarioVenta { get; set; }
         public DateTime FechaRegistro { get; set; }

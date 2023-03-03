@@ -15,6 +15,7 @@ namespace Infrastructure.Data.Context
         public int IdProducto { get; set; }
         public string DescProducto { get; set; }
         public int? Stock { get; set; }
+        public decimal? Precio { get; set; }
         public int? Activo { get; set; }
         public DateTime? FechaRegistro { get; set; }
 

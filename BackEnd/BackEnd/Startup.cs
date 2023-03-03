@@ -3,11 +3,10 @@ using Application.IoC;
 using FluentValidation.AspNetCore;
 using Infrastructure.MainModule.Exceptions;
 using Infrastructure.MainModule.Extensions;
+using Infrastructure.MainModule.Utilidades;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -15,10 +14,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace BackEnd
 {
@@ -59,28 +56,6 @@ namespace BackEnd
                 //options.SuppressModelStateInvalidFilter = true;
             });
 
-            //services.AddAuthentication(options =>
-            //{
-            //    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-            //    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            //}).AddJwtBearer(options =>
-            //{
-            //    options.TokenValidationParameters = new TokenValidationParameters
-            //    {
-            //        ValidateIssuer = true,
-            //        ValidateAudience = true,
-
-            //        ValidateLifetime = true,
-
-            //        ValidateIssuerSigningKey = true,
-
-            //        ValidIssuer = Configuration["Authentication:Issuer"],
-            //        ValidAudience = Configuration["Authentication:Audience"],
-
-            //        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Authentication:SecretKey"]))
-            //    };
-
-            //});
 
             services.AddApplication();
 
@@ -121,20 +96,24 @@ namespace BackEnd
                 });
             });
 
-            services.AddAuthentication(config =>
-            {
-                config.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                config.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(config =>
+            
+
+            var issuer = Configuration["Authentication:Issuer"];
+            var audience = Configuration["Authentication:Audience"];
+            var signinKey = Configuration["Authentication:SecretKey"];
+
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(config =>
             {
                 config.RequireHttpsMetadata = false;
                 config.SaveToken = true;
-                config.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                config.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Authentication:SecretKey"])),
                     ValidateIssuer = false,
-                    ValidateAudience = false
+                    ValidateAudience = false,
+                    ValidateLifetime = true
                 };
             });
 
