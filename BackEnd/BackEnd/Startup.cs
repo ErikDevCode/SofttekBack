@@ -31,16 +31,25 @@ namespace BackEnd
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors(opciones =>
-            {
-                var urlList = Configuration.GetSection("AllowedOrigin").GetChildren().Select(c => c.Value)
-                    .ToArray();
-                opciones.AddDefaultPolicy(builder =>
-                {
-                    builder.WithOrigins(urlList).AllowAnyMethod().AllowAnyHeader();
-                });
+            //services.AddCors(opciones =>
+            //{
+            //    var urlList = Configuration.GetSection("AllowedOrigin").GetChildren().Select(c => c.Value)
+            //        .ToArray();
+            //    opciones.AddPolicy("Cors",builder =>
+            //    {
+            //        builder.WithOrigins(urlList).AllowAnyMethod().AllowAnyHeader();
+            //    });
 
-            });
+            //});
+
+            services.AddCors(options =>
+               options.AddPolicy("MyPolicy",
+                 builder => {
+                     builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+
+                 }));
 
             services.AddControllers(options =>
             {

@@ -1,6 +1,7 @@
 ﻿using Application.Dto;
 using Application.Manager.Interfaces;
 using Application.Services.Util;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace Presentation.BackEnd.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("Cors")]
     public class LoginController : ControllerBase
     {
         private readonly ISecurityManager securityManager;

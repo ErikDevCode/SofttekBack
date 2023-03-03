@@ -4,6 +4,7 @@ using Application.Services.Util;
 using Domain.MainModule.Entities;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace Presentation.BackEnd.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    
+    [EnableCors("Cors")]
     public class VentasController : ControllerBase
     {
         private readonly IVentasManager ventasManager;
