@@ -14,7 +14,6 @@ namespace Presentation.BackEnd.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors("Cors")]
     public class LoginController : ControllerBase
     {
         private readonly ISecurityManager securityManager;
