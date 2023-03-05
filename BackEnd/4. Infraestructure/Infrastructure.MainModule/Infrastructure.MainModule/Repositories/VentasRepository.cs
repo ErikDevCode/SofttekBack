@@ -24,6 +24,15 @@ namespace Infrastructure.MainModule.Repositories
             this._context = context;
             this._configuration = configuration;
         }
+
+        public async Task<List<ProductoEntity>> GetListarProducto()
+        {
+            var ListUsuarioLogin = await _context.Productos
+               .Where(x => x.Stock >0).ToListAsync();
+
+            return ListUsuarioLogin;
+        }
+
         public async Task<List<VentasDiariasEntity>> GetVentasDiarias()
         {
             await using (var connection = new SqlConnection(_configuration["ConnectionStrings:CnnSofttekBDSqlServer"]))

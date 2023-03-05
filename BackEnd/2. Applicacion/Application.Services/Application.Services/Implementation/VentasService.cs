@@ -16,6 +16,12 @@ namespace Application.Services.Implementation
         {
             this._unitOfWork = unitOfWork;
         }
+
+        public async Task<List<ProductoEntity>> GetListarProducto()
+        {
+            return await _unitOfWork.VentasRepository.GetListarProducto();
+        }
+
         public async Task<List<VentasDiariasEntity>> GetVentasDiarias()
         {
             return await _unitOfWork.VentasRepository.GetVentasDiarias();

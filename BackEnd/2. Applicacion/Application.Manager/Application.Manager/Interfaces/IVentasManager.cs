@@ -14,5 +14,7 @@ namespace Application.Manager.Interfaces
 
         Task<VentaDiariaEntity> RegistrarVentasDiarias(VentaDiariaEntity ventasDiariasDto);
 
+        Task<List<ProductoEntity>> GetListarProducto();
+
     }
 }

@@ -21,6 +21,7 @@ namespace BackEnd
 {
     public class Startup
     {
+        private readonly string _MyCors ="Cors";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -31,25 +32,15 @@ namespace BackEnd
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddCors(opciones =>
-            //{
-            //    var urlList = Configuration.GetSection("AllowedOrigin").GetChildren().Select(c => c.Value)
-            //        .ToArray();
-            //    opciones.AddPolicy("Cors",builder =>
-            //    {
-            //        builder.WithOrigins(urlList).AllowAnyMethod().AllowAnyHeader();
-            //    });
-
-            //});
 
             services.AddCors(options =>
-               options.AddPolicy("MyPolicy",
-                 builder => {
-                     builder.AllowAnyOrigin()
-                            .AllowAnyHeader()
-                            .AllowAnyMethod();
-
-                 }));
+            {
+                options.AddPolicy(name: _MyCors, builder =>
+                {
+                    builder.SetIsOriginAllowed(origin => new Uri(origin).Host == "localhost")
+                    .AllowAnyHeader().AllowAnyMethod();
+                });
+            });
 
             services.AddControllers(options =>
             {

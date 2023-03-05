@@ -18,6 +18,7 @@ namespace Presentation.BackEnd.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [EnableCors("Cors")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class VentasController : ControllerBase
     {
         private readonly IVentasManager ventasManager;
@@ -30,7 +31,6 @@ namespace Presentation.BackEnd.Controllers
         }
 
         [HttpGet("ListarVentas")]
-        [Authorize(AuthenticationSchemes =JwtBearerDefaults.AuthenticationScheme)]
         public async Task<IActionResult> ListarVentas()
         {
 
@@ -63,6 +63,22 @@ namespace Presentation.BackEnd.Controllers
                 throw ex;
             }
 
+        }
+
+        [HttpGet("ListarProductos")]
+        public async Task<IActionResult> ListarProductos()
+        {
+
+            List<ProductoEntity> ventasEntity = await ventasManager.GetListarProducto();
+
+            if (ventasEntity == null)
+            {
+                return Ok(new { valid = false, message = Constants.InvalidUser });
+            }
+            else
+            {
+                return Ok(ventasEntity);
+            }
         }
     }
 }

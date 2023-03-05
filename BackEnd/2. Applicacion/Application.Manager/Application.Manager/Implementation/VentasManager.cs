@@ -30,6 +30,12 @@ namespace Application.Manager.Implementation
             this.configuration = configuration;
         }
 
+        public async Task<List<ProductoEntity>> GetListarProducto()
+        {
+            var producto = await ventasService.GetListarProducto();
+            return producto;
+        }
+
         public async Task<List<VentasDiariasEntity>> GetVentasDiarias()
         {
             var ventas = await ventasService.GetVentasDiarias();
